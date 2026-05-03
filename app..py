@@ -4,7 +4,7 @@ import requests
 import pandas as pd
 from datetime import datetime
 
-# --- CONFIG ---
+# --- CONFIG ----
 USDA_API_KEY = st.secrets["USDA_API_KEY"]
 
 st.set_page_config(page_title="Free NutriTracker", layout="wide")
