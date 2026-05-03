@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import datetime
 
 # --- CONFIG ---
-USDA_API_KEY = st.secrets["USDA_API_KEY"]
+USDA_API_KEY = st.secrets["O7FEwaRepBGrFWVnyosufLD3EmZKavzh29i3A7Cr"]
 
 st.set_page_config(page_title="Free NutriTracker", layout="wide")
 conn = st.connection("gsheets", type=GSheetsConnection)
